@@ -1,4 +1,4 @@
-{"description":"Some of the undelying structure of ASP.Net 4 with OWIN."}
+{"description":"Some of the underlying structure of ASP.Net 4 with OWIN."}
 
 ## What
 
