@@ -315,7 +315,7 @@ MVC5 does not exist as a middleware.
 It can not be used on top of OWIN.
 MVC5 uses the IIS integrated pipeline.
 
-When using OWIN with MVC5, the OWIN pipline gets hacked into the IIS pipline.
+When using OWIN with MVC5, the OWIN pipeline gets hacked into the IIS pipeline.
 You should read [Microsoft's documentation on this](https://docs.microsoft.com/en-us/aspnet/aspnet/overview/owin-and-katana/owin-middleware-in-the-iis-integrated-pipeline) too.
 
 With ASP .Net Core MVC has been fully decoupled from IIS.

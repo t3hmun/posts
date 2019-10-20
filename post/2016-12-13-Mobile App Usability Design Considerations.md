@@ -25,7 +25,7 @@ Assuming one hand usage with thumb interacting with the screen:
 
 ```
  Screen reach comfort:                                                              
- Right hand grip               Both hands overlayed                                 
+ Right hand grip               Both hands overlaid                                 
  +-------------------------+   +-------------------------+                          
  |                         |   |                         |                          
  |                         |   |                         |                          

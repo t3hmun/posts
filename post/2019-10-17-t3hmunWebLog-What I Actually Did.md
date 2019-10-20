@@ -6,17 +6,17 @@ https://github.com/t3hmun/WebLog
     * The markdown posts live in a sub-repo
     * https://github.com/t3hmun/posts
 * Tried to use Azure Pipeline and Azure for build and deployment
-    * Discovered Microsoft dont do Core 3 on Azure / Azure DevOps yet ><
+    * Discovered Microsoft don't do Core 3 on Azure / Azure DevOps yet ><
     * Realised that this is the excuse to learn some docker I needed 
 * Shoved it in Docker for build and deployment
     * BuildWebCompiler isn't linux docker friendly so I dropped it
     * Replaced it with SassC called as a separate build step in docker
-    * Docker is suprisingly easy
+    * Docker is surprisingly easy
 * Linked docker hub directly to the GitHubRepo
     * __Docker Hub is now my build server__
     * Azure pipelines is a waste of space, Docker is the future
     * https://hub.docker.com/r/t3hmun/t3hmun
-* Told Azure to pulish the Docker container
+* Told Azure to publish the Docker container
     * https://t3hmun.azurewebsites.net/
     * Free tier
     * It just works, pretty sweet
@@ -25,7 +25,7 @@ https://github.com/t3hmun/WebLog
 
 
 At this point I was meant to move onto simple ASP caching but I decided that publishing posts needed to be easier.
-While struggling with moving parts of using Git forstoring, accessing and updating data, I had an epiphany.
+While struggling with moving parts of using Git for storing, accessing and updating data, I had an epiphany.
 That is what databases are for.
 __Then I jumped down the rabbit hole of cloud tech.__
 

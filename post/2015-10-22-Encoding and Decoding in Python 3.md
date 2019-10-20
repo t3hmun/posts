@@ -273,7 +273,7 @@ Has the output:
 6 GPB currency symbol: £
 ```
 
-In this example lines 2, 3 and 4 were econded to the default utf-8 before being output.
+In this example lines 2, 3 and 4 were encoded to the default utf-8 before being output.
 This works fine for pure ASCII characters (`hello`) that are encoding-compatible with most code-pages but outputs garbage when it encounters anything beyond basic ASCII, as seen on output lines 3 and 4.
 
 The delta triangle character does not exist in cp850 so it is output as a `?` when encoded correctly.

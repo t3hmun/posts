@@ -58,14 +58,14 @@ however this should never by used.
 
 ### debuggable versionName and versionCode
 
-The documentation tells you to remove `android:debuggable` and set `andoid:versionName` and `android:versionCode` in the manifest.
+The documentation tells you to remove `android:debuggable` and set `android:versionName` and `android:versionCode` in the manifest.
 This is not helpful advice in modern Android apps.
 
 The `android:debuggable` attribute is no longer set manually, it is automatically added by Android Studio when debugging.
 This means that the attribute should never be manually set in your manifest.
 It may need to be removed manually if you are working with old code.
 
-The `android:debuggable` and set `andoid:versionName` attributes are now normally set in the `build.gradle`, 
+The `android:debuggable` and set `android:versionName` attributes are now normally set in the `build.gradle`, 
 which automatically sets it in the manifest, overwriting anything set there manually.
 So that too should not be manually set in the manifest because it will only lead to confusion.
  
@@ -75,7 +75,7 @@ Whenever an app is updated, the system will check to see if the app is signed by
 If the signatures don't match, the update will be refused.
 
 All builds that are run are signed, including debug builds.
-The debug builds use a default debug signature `~/.andoid/debug.keystore`, which cannot be used for release.
+The debug builds use a default debug signature `~/.android/debug.keystore`, which cannot be used for release.
 
 Creating a signature, building and signing is done through a dialog, 
 click on the _Build_ menu in Android Studio and then click on _Generate Signed APK..._.
@@ -122,7 +122,7 @@ The debug signing config is also something that seems to be generated mysterious
 > I only use my debug_release build for verifying that I didn't do something catastrophically wrong. 
 If you need to do some real debugging you may want to turn Proguard obfuscation off and fiddle with other features.
 
-## Whats Next
+## What's Next
 
 Next step requires a Google Developer account.
 Find the official documentation, follow the steps and upload the signed APK that was created.

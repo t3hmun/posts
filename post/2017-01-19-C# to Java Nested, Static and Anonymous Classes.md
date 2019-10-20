@@ -35,7 +35,7 @@ internal class Containing
             Console.WriteLine("Nested ctor.");
         }
 
-        public void FeelsLikeAnEcapsulationViolation()
+        public void FeelsLikeAnEncapsulationViolation()
         {
             // Nested class can access private vars from any instance of its Containing class.
             var instanceOfContaining = new Containing();
