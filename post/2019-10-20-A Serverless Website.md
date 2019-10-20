@@ -122,5 +122,7 @@ Here's a diagram re[resenting my first draft of this design:
 [Content Server]<-[Layout Engine]
 ```
 
-I imagine each node on the diagram is a web function or set of functions.
-I've never written a function
+I imagine each node on the diagram is a cloud function or set of functions.
+I've never written a cloud function.
+It feels like I've discovered the Unix philosophy, 
+writing many small programs that do a great job.
